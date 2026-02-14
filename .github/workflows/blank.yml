@@ -17,7 +17,7 @@ on:
         default: 1.0.0
 jobs:
   inputdemo:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: run input demo
         run: echo "Deploy the ${{inputs.tags}}  application ${{inputs.environment}}"
